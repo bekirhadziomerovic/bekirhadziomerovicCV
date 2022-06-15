@@ -17,10 +17,6 @@ const routes: Routes = [
     component: MaincomponentComponent,
     children: [
       {
-        path: Route.mainpage,
-        component: MainpageComponent,
-      },
-      {
         path: Route.aboutme,
         component: AboutmeComponent,
       },
