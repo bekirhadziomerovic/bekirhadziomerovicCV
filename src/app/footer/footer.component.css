@@ -1,0 +1,11 @@
+#list li {
+
+list-style-type: none;
+margin-right:20px;
+
+}
+
+#list {
+    display: flex;
+    justify-content: space-between;
+}

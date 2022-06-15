@@ -1,0 +1,37 @@
+.img{
+    margin-left: 5%;
+    height:10%;
+
+}
+
+.skillbars{
+    display: flex;
+    
+}
+#wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:7%;
+    margin-bottom:7%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #0693e3;
+    width:60%;
+    border-radius:20px;
+    padding: 20px;
+    background-color: white;
+
+}
+
+#rightside {
+    width:70%;
+    margin-left: 30px;
+    
+}
+
+#rightside p {
+    text-align: justify;
+    width:100%;
+   
+}

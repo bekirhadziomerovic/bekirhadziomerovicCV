@@ -1,0 +1,39 @@
+.header {
+
+   
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    background:#0693e3;
+    background-size: 100% 5px; 
+    color: white;
+    font-family:'Trebuchet MS';
+  }
+
+  .header h1 {
+    margin-left: 20px;
+    
+  }
+ 
+
+.TextList{
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  right: 0%;
+  
+}
+.list {
+    justify-content: space-between;
+    display: flex;
+    padding:15px;
+}
+.list li {
+   margin-right: 20px;
+   list-style-type: none;
+
+}
+
+  

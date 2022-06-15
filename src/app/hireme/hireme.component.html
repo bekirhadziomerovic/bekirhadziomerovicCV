@@ -1,0 +1,27 @@
+<form action="https://mailthis.to/example" method="POST" encType="multipart/form-data">
+    <h3>Contact Form (example)</h3>
+    <!-- Name -->
+    <input type="email" name="name" placeholder="Bekir Hadziomerovic">
+    <!-- Email -->
+    <input type="email" name="email" placeholder="hadziomerovic.bekir@gmail.com">
+    <!-- Phone Number -->
+    <input type="text" name="phone" placeholder="+387 62 612 252">
+    <!-- Textarea (Message) -->
+    <textarea name="message" placeholder="Enter your message here" style="height:100px"></textarea>
+    <!-- File attachments -->
+    <input type="file" name="file" placeholder="">
+  
+    
+    <input type="hidden" name="_subject" value="Contact form submitted">
+    <!-- Custom email ReplyTo Address -->
+    <input type="hidden" name="_replyto" value="foo@bar.co">
+    <!-- Redirect to a page after recaptcha -->
+    <input type="hidden" name="_after" value="https://myhomepage.net/">
+    <!-- Honeypot (to catch comment spam bots) -->
+    <input type="hidden" name="_honeypot" value="">
+    
+    <input type="hidden" name="_confirmation" value="">
+  
+    
+    <input type="submit" name="submit" value="Submit Form" class="btn btn-primary">
+  </form>

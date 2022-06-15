@@ -1,0 +1,10 @@
+#projects {
+    margin: 7% auto 7% auto;
+    background-color: white;
+    border-radius:20px;
+    border-style: solid;
+    border-color:lightblue;
+    padding:20px;
+    text-align: justify;
+    width: 70%
+}
